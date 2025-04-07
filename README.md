@@ -9,7 +9,6 @@ This project leverages Crew AI and a locally running Large Language Model (LLM) 
 - [Features](#features)
 - [System Requirements](#system-requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 
 
 ## Overview
@@ -70,5 +69,5 @@ llm = LLM(
 
 Run the Agents: Start the multi-agent system:
 ```bash
-    streamlit run content_writer.py
+streamlit run content_writer.py
 ```
