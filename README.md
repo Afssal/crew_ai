@@ -34,12 +34,11 @@ Before you begin, ensure that your system meets the following requirements:
 
 ## Installation
 
-Follow these steps to set up the multi-agent system on your local machine.
+**Follow these steps to set up the multi-agent system on your local machine.**
 
-    Clone the Repository:
+**Clone the Repository:**
 
 ```bash
-
 git clone https://github.com/Afssal/crew_ai.git
 cd crew_ai
 ```
