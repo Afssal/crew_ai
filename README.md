@@ -18,21 +18,19 @@ This project creates an intelligent content writing system by using Crew AI for 
 
 ## Key Features:
 
-    Multi-Agent Framework: A group of specialized agents to collaborate and generate content.
-
-    Local LLM: An advanced LLM running locally to ensure privacy and fast generation.
-
-    Content Creation Workflow: Agents that handle tasks such as research, drafting, editing, and proofreading.
-
-    Customizable Roles: Ability to add or modify agent roles to suit specific needs.
+- **Multi-Agent Framework**: A group of specialized agents to collaborate and generate content.
+- **Local LLM**: An advanced LLM running locally to ensure privacy and fast generation.
+- **Content Creation Workflow**: Agents that handle tasks such as research, drafting, editing, and proofreading.
+- **Customizable Roles**: Ability to add or modify agent roles to suit specific needs.
 
 ## System Requirements
 
 Before you begin, ensure that your system meets the following requirements:
 
-    Python 3.8+ (Recommended version: 3.9 or higher)
+- **Python 3.8+** (Recommended version: 3.9 or higher)
+- **A locally hosted LLM**
 
-    A locally hosted LLM (ollama).
+---
 
 
 ## Installation
@@ -45,6 +43,7 @@ Follow these steps to set up the multi-agent system on your local machine.
 
 git clone https://github.com/Afssal/crew_ai.git
 cd crew_ai
+```
 
 Install Dependencies: Set up a Python virtual environment and install required dependencies:
 
@@ -67,6 +66,9 @@ llm = LLM(
     model = 'ollama/{your ollama model}',
     base_url = "http://localhost:11434"
 )
+```
 
 Run the Agents: Start the multi-agent system:
+```bash
     streamlit run content_writer.py
+```
